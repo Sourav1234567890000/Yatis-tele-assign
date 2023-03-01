@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+   <!-- form -->
+
+    <div class="main-div">
+       
+          <div class="device-id">
+              <label for="deviceId" >DEVICE-ID</label>
+              <input type="text" id="deviceId" name="deviceId"  value="FM357544373242888">  
+          </div>
+          <div class="start-date">
+              <label for="startDate">START-DATE</label>
+              <input type="date" id="startDate" name="startDate" >
+          </div>
+               
+          <div class="end-date">
+            <label for="endDate">END-DATE</label>
+            <input type="date" id="endDate" name="endDate" >
+          </div>
+
+          <div class="btn-class">
+              <Button id="Fetch-button"> FETCH </Button>
+          </div>
+
+    </div>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+    <!-- scatter plot -->
+    
+    <div>
+        <svg width="1000" height= "600"></svg>
+    </div>
+
+    <script src="app.js"> </script>
+</body>
+</html>
